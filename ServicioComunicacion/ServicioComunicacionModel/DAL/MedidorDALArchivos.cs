@@ -43,10 +43,10 @@ namespace ServicioComunicacionModel.DAL
         public List<MedidorTrafico> TraficoGetAll()
         {
             List<MedidorTrafico> medidoresTrafico = new List<MedidorTrafico>();
-            MedidorTrafico m1 = new MedidorTrafico(1, "V01");
-            MedidorTrafico m2 = new MedidorTrafico(2, "V02");
-            MedidorTrafico m3 = new MedidorTrafico(3, "V03");
-            MedidorTrafico m4 = new MedidorTrafico(4, "V04");
+            MedidorTrafico m1 = new MedidorTrafico(1, 1000);
+            MedidorTrafico m2 = new MedidorTrafico(2, 2000);
+            MedidorTrafico m3 = new MedidorTrafico(3, 3000);
+            MedidorTrafico m4 = new MedidorTrafico(4, 4000);
             medidoresTrafico.Add(m1);
             medidoresTrafico.Add(m2);
             medidoresTrafico.Add(m3);
